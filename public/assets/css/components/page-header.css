@@ -1,17 +1,31 @@
 .page-header {
+  background-color: var(--color-black);
+}
+
+.page-header .wrapper {
   display: flex;
   justify-content: space-between;
-  background-color: var(--color-black);
 }
 
 .page-header ul {
   display: flex;
+  align-items: center;
 }
 
 .page-header a {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 22px;
   padding: 24px 20px;
-  font: var(--font-p1);
+  font: var(--font-paragraph);
+  font-weight: 700;
+  line-height: 22px;
   color: var(--color-white);
+  text-transform: uppercase;
   text-decoration: none;
+}
+
+.page-header a:hover {
+  background-color: var(--color-grey-600);
 }
