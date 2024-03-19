@@ -1,0 +1,14 @@
+{
+  "name": "htmlacademy-barbershop",
+  "version": "1.0.0",
+  "description": "Website for barbershop Borodinsky",
+  "main": "./public/index.html",
+  "author": "Statsenko Inna",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^3.0.2"
+  },
+  "scripts": {
+    "start": "browser-sync start --server ./public --watch ./public/**/*.*"
+  }
+}
