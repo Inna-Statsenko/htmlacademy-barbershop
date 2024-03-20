@@ -29,3 +29,16 @@
 .page-header a:hover {
   background-color: var(--color-grey-600);
 }
+
+.page-header a:focus-visible {
+  outline: 4px solid var(--color-grey-400);
+  outline-offset: -4px;
+}
+
+.page-header svg {
+  color: var(--color-grey-500);
+}
+
+.page-header a:hover svg {
+  color: inherit;
+}

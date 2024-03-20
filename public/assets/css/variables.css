@@ -6,13 +6,16 @@
   --color-white: #ffffff;
   --color-grey-200: #f6f6f6;
   --color-grey-400: #e7e7e7;
+  --color-grey-500: #bdbdbd;
   --color-grey-600: #595959;
+  --color-grey-700: #252525;
   --color-grey-800: #242424;
   --color-brown-200: #fbf7f4;
   --color-brown-400: #dbb590;
   --color-brown-500: #af7842;
   --color-brown-600: #814b18;
   --color-brown-800: #4e2e0e;
+  --color-beige: #DBB590;
   
   --font-paragraph: 400 16px/1.5 "PT Sans", sans-serif;
 }

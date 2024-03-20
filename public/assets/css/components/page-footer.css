@@ -1,0 +1,67 @@
+.page-footer {
+  background-color: var(--color-grey-700);
+  height: 242px;
+}
+
+.page-footer .container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.page-footer .container ul {
+  list-style-type: none;
+}
+
+.page-footer .container .contacts {
+  margin-top: 40px;
+  padding-left: 0;
+}
+
+.page-footer .container .contacts li {
+  color: var(--color-white);
+  font-family: 'PT Sans Narrow';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.page-footer .container .contacts li:nth-child(2) {
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.page-footer .container .feedback li {
+  color: var(--color-white);
+  font-family: 'PT Sans Narrow';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.page-footer .social-media li:nth-child(1) {
+  color: var(--color-white);
+  font-family: 'PT Sans Narrow';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-transform: uppercase; 
+}
+
+.page-footer .social-media li:nth-child(3) {
+  color: var(--color-white);
+  font-family: 'PT Sans Narrow';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.page-footer .social-media li span {
+  color: var(--color-beige);
+  text-decoration: underline;
+}
