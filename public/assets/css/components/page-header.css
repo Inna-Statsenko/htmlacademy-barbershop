@@ -12,6 +12,25 @@
   align-items: center;
 }
 
+.page-header__to-home {
+  margin-right: 100px;
+}
+
+.page-header__active {
+  position: relative;
+}
+
+.page-header__active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  right: 20px;
+  display: block;
+  height: 4px;
+  background-color: var(--color-white);
+}
+
 .page-header a {
   display: flex;
   align-items: center;
@@ -42,3 +61,4 @@
 .page-header a:hover svg {
   color: inherit;
 }
+
