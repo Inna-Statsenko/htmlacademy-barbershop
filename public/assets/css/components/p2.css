@@ -1,0 +1,14 @@
+.p2 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.p2--weight-400 {
+  font-weight: 400;
+}
+
+.p2--weight-700 {
+  font-weight: 700;
+}

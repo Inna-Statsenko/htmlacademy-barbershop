@@ -1,0 +1,24 @@
+.p1 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;  
+  
+  font: 400 16px/1.5 "PT Sans", sans-serif;
+}
+
+.p1--weight-400 {
+  font-weight: 400;
+}
+
+.p1--weight-700 {
+  font-weight: 700;
+}
+
+.p1--transform-uppercase {
+  text-transform: uppercase;
+}
+
+.p1--transform-none {
+  text-transform: none;
+}
