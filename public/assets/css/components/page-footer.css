@@ -1,13 +1,14 @@
 .page-footer {
-  background-color: var(--color-grey-700);
-  height: 242px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: url('/public/assets/img/noisy-texture.png');
+  background-repeat:repeat;
+  color: var(--color-white);
+  background-color: var(--color-grey-800);
 }
 
-.page-footer .container {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 40px;
-  margin-right: 40px;
+.page-footer a {
+  color: inherit;
 }
 
 .page-footer .container ul {
