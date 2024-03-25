@@ -22,9 +22,13 @@
 }
 
 .advantages p::before {
-  content: url(/public/assets/img/diamond.svg);
+  content: "";
   position: absolute;
   top: 18px;
   left: 130px;
-  color: var(--color-white);
+  display: block;
+  height: 14px;
+  width: 14px;
+  transform: rotate(45deg);
+  background-color: var(--color-white);
 }
