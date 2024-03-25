@@ -7,8 +7,10 @@
   background-color: var(--color-grey-800);
 }
 
-.page-footer a {
-  color: inherit;
+.page-footer .wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .page-footer .container ul {

@@ -1,0 +1,30 @@
+.advantages ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-top: 64px;
+  padding-bottom: 58px;
+  color: var(--color-white);
+  list-style: none;
+}
+
+.advantages li {
+  display: block;
+  width: 277px;
+  text-align: center;
+}
+
+.advantages p {
+  position: relative;
+  padding-top: 56px;
+}
+
+.advantages p::before {
+  content: url(/public/assets/img/diamond.svg);
+  position: absolute;
+  top: 18px;
+  left: 130px;
+  color: var(--color-white);
+}
