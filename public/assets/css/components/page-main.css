@@ -1,2 +1,28 @@
-/* .page-main {
-} */
+.page-main {
+  background-image: url(/public/assets/img/background.png);
+}
+
+.page-main .wrapper {
+  height: 525px;
+}
+
+.page-main .wrapper .big-logo {
+  padding-top: 64px;
+  display: block;
+   margin: 0 auto;
+}
+
+.page-main .advantages {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  color: var(--color-white);
+  list-style-type: none;
+}
+
+.page-main .advantages li {
+  display: block;
+  width: 277px;
+  text-align: center;
+}
+
