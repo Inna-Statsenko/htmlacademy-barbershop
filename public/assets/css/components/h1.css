@@ -3,10 +3,16 @@
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 32px;
   line-height: 1.1;
-  font-weight: 700;
+  font-weight: bold;
   font-style: normal;
+  text-transform: uppercase;
+  color: inherit;
 }
 
-.h1--underlined {
+.h1--link {
+  text-decoration: underline;
+}
+
+.h1--link:hover {
   text-decoration: underline;
 }

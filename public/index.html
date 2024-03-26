@@ -94,7 +94,7 @@
 
     <footer class="page-footer">
       <div class="wrapper">
-        <section>
+        <section class="page-footer__contacts">
           <p>
             <a href="./index.html">
               <span class="visually-hidden">Home</span>
@@ -103,28 +103,44 @@
           </p>
 
           <h3 class="visually-hidden">Address</h3>
-            <p class="h3">2203 sunset blvd. Los Angeles, California 90026</p>
+            <p class="p2 p2--bold">2203 sunset blvd. Los Angeles, California 90026</p>
 
             <h3 class="visually-hidden">Phone number</h3>
             <p>
-              <a class="h3 link uppercase" href="tel:+1-951-239-0523">+1-951-239-0523</a>
+              <a class="h3 h3--link" href="tel:+1-951-239-0523">+1-951-239-0523</a>
             </p>
 
             <p>
               <span class="visually-hidden">Map</span>
-              <a class="h3 link uppercase" href="./map.html">How to find us</a>
+              <a class="h3 h3--link" href="./map.html">How to find us</a>
             </p>
         </section>
-        <section class="feedback">
-          <p>Получайте лучшие предложения</p>
-          <input type="password" width="280px" height="44px">
+
+        <section class="page-footer__feedback">
+          <p class="h3">Recieve best offers</p>
+          <div class="input">
+            <input class="email" type="text">
+            <button class="button" type="submit"></button>
+          </div>
         </section>
-        <section class="social-media">         
-          <p>Давайте дружить</p>
-            <img src="./assets/img/twitter.png" alt="twitter">
-            <img src="./assets/img/vk.png" alt="vk">
-            <img src="./assets/img/instagram.png" alt="instagram">
-            <p>Сделано в<span> .html academy</span></p>
+
+        <section class="page-footer__social-media">         
+          <p class="h3">Let's be friends</p>
+          <div class="links">
+            <svg class="twitter">
+              <use xlink:href="./assets/img/sprite.svg#twitter">
+              </use> 
+            </svg>
+            <svg class="vk">
+              <use xlink:href="./assets/img/sprite.svg#vk">
+              </use>
+            </svg>
+            <svg class="facebook">
+              <use xlink:href="./assets/img/sprite.svg#facebook">
+              </use>
+            </svg>
+          </div>
+            <p class="p2">Сделано в <a href="#"><span> .html academy</span></a></p>
         </section>
 
       </div>

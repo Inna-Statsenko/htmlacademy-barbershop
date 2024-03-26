@@ -1,3 +1,29 @@
-.button {
-    
+.button:hover {
+  width: 56px;
+  height: 44px;
+  background-color: var(--color-brown-600);
+  color: var(--color-white);
 }
+
+.button:active {
+  width: 56px;
+  height: 44px;
+  background-color: var(--color-brown-600);
+  color: var(--color-white);
+}
+
+.button:focus {
+  width: 56px;
+  height: 44px;
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.button:disabled {
+  width: 56px;
+  height: 44px;
+  background-color: var(--color-grey-600);
+  color: var(--color-white);
+}
+
+
