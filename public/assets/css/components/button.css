@@ -1,29 +1,61 @@
-.button:hover {
-  width: 56px;
-  height: 44px;
-  background-color: var(--color-brown-600);
+.button {
+  display: inline-flex;
+  vertical-align: middle;
+  gap: 8px;
+  padding: 14px 20px;
+  outline-offset: 0;
+  border: none;
+  font: bold 16px/1 "PT Sans", sans-serif;
+  font-style: normal;
   color: var(--color-white);
-}
-
-.button:active {
-  width: 56px;
-  height: 44px;
-  background-color: var(--color-brown-600);
-  color: var(--color-white);
-}
-
-.button:focus {
-  width: 56px;
-  height: 44px;
   background-color: var(--color-black);
-  color: var(--color-white);
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.button:disabled {
-  width: 56px;
-  height: 44px;
+ .button--additional {
+  color: var(--color-grey-800);
+  background-color: var(--color-white);
+}
+
+.button:hover {
+  background-color: var(--color-brown-600);
+}
+
+.button--additional:hover {
+  background-color: var(--color-brown-400);
+}
+
+.button:focus-visible {
+  background-color: var(--color-brown-600);
+  outline: 2px solid var(--color-brown-400);
+}
+
+.button--additional:focus-visible {
+  background-color: var(--color-brown-400);
+  outline: 2px solid var(--color-brown-600);
+}
+
+.button--disabled {
+  color: var(--color-grey-400);
   background-color: var(--color-grey-600);
-  color: var(--color-white);
+  cursor: not-allowed;
+}
+
+.button--disabled:focus-visible {
+  background-color: var(--color-grey-600);
+  outline: 2px solid var(--color-grey-400);
+}
+
+.button--disabled:hover {
+  background-color: var(--color-grey-600);
+  cursor: not-allowed;
+}
+
+.button svg {
+  width: 16px;
+  height: 16px;
 }
 
 
