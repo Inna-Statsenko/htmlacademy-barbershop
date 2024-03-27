@@ -1,9 +1,6 @@
 .h3 {
   margin: 0;
-  font-family: "PT Sans Narrow", sans-serif;
-  font-size: 20px;
-  line-height: 1.4;
-  font-weight: bold;
+  font: bold 20px/1.4 "PT Sans Narrow", sans-serif;
   font-style: normal;
   text-transform: uppercase;
   color: inherit;

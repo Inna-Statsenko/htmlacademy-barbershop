@@ -13,6 +13,10 @@
   justify-content: space-between;
 }
 
+.page-footer .wrapper .p2--bold {
+  width: 190px;
+}
+
 .page-footer .email {
   width: 223px;
   height: 39px;

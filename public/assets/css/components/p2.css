@@ -1,13 +1,14 @@
 .p2 {
   margin: 0;
-  font-family: "PT Sans", sans-serif;
-  font-size: 14px;
-  line-height: 1.4;
-  font-weight: normal;
+  font: normal 14px/1.4 "PT Sans", sans-serif;
   font-style: normal;
   color: inherit;
 }
 
 .p2--bold {
   font-weight: bold;
+}
+
+.p2--uppercase {
+  text-transform: uppercase;
 }
