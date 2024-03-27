@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Styleguide | Barbershop Borodinsky</title>
+
+    <link rel="stylesheet" href="./assets/css/index.css">
+  </head>
+
+  <body class="styleguide-page">
+    <header>
+      <h1>Reusable components</h1>
+    </header>
+
+    <main>
+      <section>
+        <div class="buttons">
+          <h2>Buttons</h2>
+          <h3>Primary button with a text</h3>
+          <button class="button">Кнопка</button>
+          <h3>Primary button with a left arrow and a text</h3>
+          <button class="button">
+            <svg>
+              <use xlink:href="./assets/img/sprite.svg#arrow-left">
+              </use>
+            </svg>
+            Кнопка с иконкой
+          </button>
+          <h3>Primary button with a right arrow and a text</h3>
+          <button class="button">
+            Кнопка с иконкой
+            <svg>
+              <use xlink:href="./assets/img/sprite.svg#arrow-right">
+              </use>
+            </svg>
+          </button>
+          <h3>Primary button with a left arrow</h3>
+          <button class="button">
+            <svg>
+              <use xlink:href="./assets/img/sprite.svg#arrow-left">
+              </use>
+            </svg>
+          </button>
+          <h3>Primary button in a disabled state</h3>
+          <button class="button button--disabled">Disabled</button>
+        </div>
+
+        <div class="links">
+          <h2>Links</h2>
+          <h3>Secondary link with a text</h3>
+          <a class="button button--additional" href="#">Кнопка</a>
+          <h3>Secondary link with a left arrow and a text</h3>
+          <a class="button button--additional" href="#">
+            <svg>
+              <use xlink:href="./assets/img/sprite.svg#arrow-left">
+              </use>
+            </svg>
+              Кнопка с иконкой
+            </a>
+            <h3>Secondary link with a right arrow and a text</h3>
+          <a class="button button--additional" href="#">
+            Кнопка с иконкой
+            <svg>
+              <use xlink:href="./assets/img/sprite.svg#arrow-right">
+              </use>
+            </svg>
+          </a>
+          <h3>Secondary link with a left arrow</h3>
+          <a class="button button--additional" href="#">
+            <svg>
+              <use xlink:href="./assets/img/sprite.svg#arrow-left">
+              </use>
+            </svg>
+          </a>
+          <h3>Secondary link in a disabled state</h3>
+          <a class="button button--disabled" href="#">Disabled</a>
+        </div> 
+      </section>
+      <style>
+        .styleguide-page section .buttons {
+          padding: 10px 10px;
+        }
+        .styleguide-page section .links {
+          padding: 10px 10px;
+          background-color: var(--color-grey-800);
+          color: var(--color-white);
+        }
+      </style>
+    </main>
+
+    <footer>
+    </footer>
+
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
