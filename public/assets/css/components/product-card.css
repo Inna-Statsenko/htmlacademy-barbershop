@@ -1,0 +1,28 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 8px rgb(79 70 60 / 0.16);
+}
+
+.product-card div {
+  padding: 16px 16px;
+}
+
+.product-card .p1 {
+  font-weight: bold;
+}
+
+.product-card p {
+  margin: 0;
+}
+
+.product-card .h2 {
+  padding: 12px 0 16px 0;
+  color: var(--color-brown-600);
+}
+
+.product-card sup {
+  font-size: 0.5em;
+}

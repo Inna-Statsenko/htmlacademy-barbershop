@@ -2,9 +2,3 @@
   margin: 0;
   min-width: min-content;
 }
-
-.page .links {
-  margin-top: 20px;
-  padding: 16px 0;
-  background-color: var(--color-black);
-}
