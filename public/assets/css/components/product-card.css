@@ -3,15 +3,11 @@
   flex-direction: column;
   width: 220px;
   background-color: var(--color-white);
-  box-shadow: 0 4px 8px rgb(79 70 60 / 0.16);
+  box-shadow: var(--box-shadow-sm);
 }
 
 .product-card div {
   padding: 16px 16px;
-}
-
-.product-card .p1 {
-  font-weight: bold;
 }
 
 .product-card p {

@@ -18,7 +18,7 @@
 
   --font-paragraph: 400 16px/1.5 "PT Sans", sans-serif;
 
-  --box-sizing-sm: 0 4px 8px rgb(79 70 60 / 0.16);
-  --box-sizing-md: 0px 8px 16px rgba(79, 70, 60, 0.16);
-  --box-sizing-large: 0px 18px 40px rgba(79, 70, 60, 0.16);
+  --box-shadow-sm: 0 4px 8px rgb(79 70 60 / 0.16);
+  --box-shadow-md: 0px 8px 16px rgba(79, 70, 60, 0.16);
+  --box-shadow-lg: 0px 18px 40px rgba(79, 70, 60, 0.16);
 }
