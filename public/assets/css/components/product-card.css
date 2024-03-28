@@ -7,11 +7,11 @@
 }
 
 .product-card div {
-  padding: 16px 16px;
+  padding: 16px;
 }
 
 .product-card .h2 {
-  padding: 12px 0 16px 0;
+  padding: 8px 0 16px 0;
   color: var(--color-brown-600);
 }
 
