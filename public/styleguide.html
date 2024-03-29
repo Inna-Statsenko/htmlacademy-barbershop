@@ -16,11 +16,13 @@
   <body class="styleguide-page">
     <header>
       <h1>Reusable components</h1>
+      <span class="visually-hidden">Reusable components</span>
     </header>
 
     <main>
       <section>
-        <div class="buttons">
+        <span class="visually-hidden">Buttons</span>
+        <div class="buttons" style="padding: 10px">
           <h2>Buttons</h2>
           <h3>Primary button with a text</h3>
           <button class="button">Button with an icon</button>
@@ -53,7 +55,10 @@
           <button class="button button--disabled">Disabled</button>
         </div>
 
-        <div class="links">
+        <span class="visually-hidden">Links</span>
+        <div class="links" style="padding: 10px 10px;
+          background-color: var(--color-grey-800);
+          color: var(--color-white);">
           <h2>Links</h2>
           <h3>Secondary link with a text</h3>
           <a class="button button--additional" href="#">Button</a>
@@ -85,9 +90,9 @@
         </div> 
       </section>
 
-      <h2>Product card</h2>
-
-      <article class="product-card">
+      <span class="visually-hidden">Product cards</span>
+      <section class="product-card">
+        <h2>Product card</h2>
         <a href="#">
           <img 
             src="./assets/img/product-items/1.jpg" 
@@ -109,18 +114,156 @@
             </a>
           </p>
         </div>
-      </article>
+      </section>
 
-      <style>
-        .styleguide-page section .buttons {
-          padding: 10px 10px;
-        }
-        .styleguide-page section .links {
-          padding: 10px 10px;
-          background-color: var(--color-grey-800);
-          color: var(--color-white);
-        }
-      </style>
+      <span class="visually-hidden">Input</span>
+      <section style="padding-top: 20px;">
+        <h2>Input</h2>
+        <ul style="list-style:none">
+          <span class="visually-hidden">Type:text</span>
+          <h3>Text</h3>
+          <li>
+            <h4>Default</h4>
+            <p>
+              <input class="input" type="text" placeholder="Placeholder">
+            </p>
+          </li>
+          <li>
+            <h4>Invalid via a modifier</h4>
+            <p>
+              <input class="input input--invalid" type="text" placeholder="Invalid value">
+            </p>
+          </li>
+          <li>
+            <h4>Invalid via a pseudoclass</h4>
+            <p>
+              <input class="input" type="text" value="Invalid value" pattern="[0-9]*">
+            </p>
+          </li>
+          <li>
+            <h4>Disabled</h4>
+            <p>
+              <input class="input" type="text" placeholder="Placeholder" disabled>
+            </p>
+          </li>
+        </ul>
+      
+        <ul style="list-style:none">
+          <span class="visually-hidden">Type:email</span>
+          <h3>Email</h3>
+          <li>
+            <h4>Default</h4>
+            <p>
+              <input class="input" type="email" placeholder="your@email.com">
+            </p>
+          </li>
+          <li>
+            <h4>Invalid via a modifier</h4>
+            <p>
+              <input class="input input--invalid" type="email" placeholder="Not email">
+            </p>
+          </li>
+          <li>
+            <h4>Invalid via a pseudoclass</h4>
+            <p>
+              <input class="input" type="email" value="Not email" pattern="[0-9]*">
+            </p>
+          </li>
+          <li>
+            <h4>Disabled</h4>
+            <p>
+              <input class="input" type="email" placeholder="your@email.com" disabled>
+            </p>
+            </li>
+        </ul>
+
+        <ul style="list-style:none">
+          <span class="visually-hidden">Type:password</span>
+          <h3>Password</h3>
+          <li>
+            <h4>Default</h4>
+            <p>
+              <input class="input" type="password" placeholder="Password">
+            </p>
+          </li>
+          <li>
+            <h4>Invalid via a modifier</h4>
+            <p>
+              <input class="input input--invalid" type="password" placeholder="Password">
+            </p>
+          </li>
+          <li>
+            <h4>Invalid via a pseudoclass</h4>
+            <p>
+              <input class="input" type="password" value="Not password" pattern="[0-9]*">
+            </p>
+          </li>
+          <li>
+            <h4>Disabled</h4>
+            <p>
+              <input class="input" type="password" placeholder="Password" disabled>
+            </p>
+            </li>
+        </ul>
+
+        <ul style="list-style:none">
+          <span class="visually-hidden">Type:date</span>
+          <h3>Date</h3>
+          <li>
+            <h4>Default</h4>
+            <p>
+              <input class="input" type="date" min="2024-02-17" max="2025-03-27">
+            </p>
+          </li>
+          <li>
+            <h4>Invalid via a modifier</h4>
+            <p>
+              <input class="input input--invalid" type="date" min="2024-02-17" max="2025-03-27">
+            </p>
+          </li>
+          <li>
+            <h4>Invalid via a pseudoclass</h4>
+            <p>
+              <input class="input" type="date" pattern="[0-9]*" min="2024-02-17" max="2025-03-27">
+            </p>
+          </li>
+          <li>
+            <h4>Disabled</h4>
+            <p>
+              <input class="input" type="date" disabled>
+            </p>
+            </li>
+        </ul>
+
+        <ul style="list-style:none">
+          <span class="visually-hidden">Type:number</span>
+          <h3>Number</h3>
+          <li>
+            <h4>Default</h4>
+            <p>
+              <input class="input" type="number" min="1" max="7">
+            </p>
+          </li>
+          <li>
+            <h4>Invalid via a modifier</h4>
+            <p>
+              <input class="input input--invalid" type="number" min="1" max="7">
+          </li>
+          <li>
+            <h4>Invalid via a pseudoclass</h4>
+            <p>
+              <input class="input" type="number" min="1" max="7">
+            </p>
+          </li>
+          <li>
+            <h4>Disabled</h4>
+            <p>
+              <input class="input" type="number" disabled>
+            </p>
+            </li>
+        </ul>
+
+      </section>
     </main>
 
     <footer>
