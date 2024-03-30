@@ -272,8 +272,88 @@
             </p>
           </li>
         </ul>
+      </section>
 
-        
+      <section style="padding-top: 20px;">
+        <h2>Form field</h2>
+        <ul>
+          <h3>Form field with all elements: label, input and caption</h3>
+          <p>Form field can be used with different elements: label, input and caption. 
+            It's possible to use input without label and caption, only with caption or only with label.</p>
+          <li>
+            <div class="form-field">
+              <p>
+                <label for="input-1">Label</label>
+              </p>
+              <p>
+                <input type="text" id="input-1" class="form-field__input" placeholder="Placeholder">
+              </p>
+              <p>Caption</p>
+            </div>
+            </li>
+            <li>
+              <h3>Form field with input only</h3>
+              <div class="form-field">
+                <p>
+                  <input type="text" class="form-field__input" placeholder="Placeholder">
+                </p>
+              </div>
+              </li>
+          </ul>
+
+          <ul>
+            <p><code>Form field</code> component can have the following types: text, email, password, date and number.</p>
+            <h3>Types of form field</h3>
+            <h4>Text</h4>
+            <li>
+              <h5>Default</h5>
+              <div class="form-field">
+                <p>
+                  <label for="input-2">Label</label>
+                </p>
+                <p>
+                  <input class="form-field__input" type="text" id="input-2" placeholder="Placeholder">
+                </p>
+                <p>Caption</p>
+              </div>
+            </li>
+            <li>
+              <h5>Invalid via a modifier</h5>
+              <div class="form-field">
+                <p>
+                  <label for="input-3">Label</label>
+                </p>
+                <p>
+                  <input class="form-field__input form-field__input--invalid" type="text" id="input-3" placeholder="Invalid value">
+                </p>
+                <p>Caption</p>
+              </div>
+            </li>
+            <li>
+              <h5>Invalid via a pseudoclass</h5>
+              <div class="form-field">
+                <p>
+                  <label for="input-3">Label</label>
+                </p>
+                <p>
+                  <input class="form-field__input" type="text" id="input-3" value="Invalid value" pattern="[0-9]*">
+                </p>
+                <p>Caption</p>
+              </div>
+            </li>
+            <li>
+              <h5>Disabled</h5>
+              <div class="form-field">
+                <p>
+                  <label for="input-4">Label</label>
+                </p>
+                <p>
+                  <input class="form-field__input" type="text" id="input-4" placeholder="Placeholder" disabled>
+                </p>
+                <p>Caption</p>
+              </div>
+            </li>
+          </ul>
 
       </section>
     </main>
