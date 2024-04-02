@@ -277,9 +277,11 @@
       <section style="padding-top: 20px;">
         <h2>Form field</h2>
         <ul>
+
           <h3>Form field with all elements: label, input and caption</h3>
           <p>Form field can be used with different elements: label, input and caption. 
             It's possible to use input without label and caption, only with caption or only with label.</p>
+
           <li>
             <div class="form-field">
               <p>
@@ -291,6 +293,7 @@
               <p>Caption</p>
             </div>
             </li>
+
             <li>
               <h3>Form field with input only</h3>
               <div class="form-field">
@@ -299,24 +302,38 @@
                 </p>
               </div>
               </li>
+
           </ul>
 
           <ul>
+
             <p><code>Form field</code> component can have the following types: text, email, password, date and number.</p>
             <h3>Types of form field</h3>
             <h4>Text</h4>
+
             <li>
               <h5>Default</h5>
               <div class="form-field">
-                <p>
+                <p class="form-field__box">
                   <label for="input-2">Label</label>
                 </p>
-                <p>
+                <p class="form-field__box">
+                  <label class= "form-field__tooltip" aria-label="Show tooltip">
+                    <input class="visually-hidden" type="checkbox">
+                    <svg>
+                      <use xlink:href="./assets/img/sprite.svg#info">
+                      </use>
+                    </svg>
+                    <span>Укажите желаемую дату и время и мы свяжемся c вами для подтверждения брони</span>
+                  </label>
+                </p>
+                <p class="form-field__box form-field__box--full-width">
                   <input class="form-field__input" type="text" id="input-2" placeholder="Placeholder">
                 </p>
-                <p>Caption</p>
+                <p class="form-field__box form-field__box--full-width">Caption</p>
               </div>
             </li>
+
             <li>
               <h5>Invalid via a modifier</h5>
               <div class="form-field">
@@ -329,6 +346,7 @@
                 <p>Caption</p>
               </div>
             </li>
+
             <li>
               <h5>Invalid via a pseudoclass</h5>
               <div class="form-field">
@@ -341,6 +359,7 @@
                 <p>Caption</p>
               </div>
             </li>
+
             <li>
               <h5>Disabled</h5>
               <div class="form-field">
@@ -353,6 +372,7 @@
                 <p>Caption</p>
               </div>
             </li>
+
           </ul>
 
       </section>

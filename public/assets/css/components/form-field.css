@@ -1,3 +1,68 @@
+.form-field {
+  display: inline-grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 2px;
+  row-gap: 8px;
+}
+
+.form-field__box {
+  margin: 0;
+  font: normal 14px/1.4 "PT Sans", sans-serif;
+  font-style: normal;
+  color: var(--color-grey-600);
+}
+
+.form-field__box--full-width {
+  grid-column: 1/-1;
+}
+
+.form-field label {
+  font: bold 16px/18px "PT Sans", sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  color: var(--color-grey-800);
+}
+
+.form-field__tooltip {
+  position: relative;
+  display: inline-flex;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.form-field__tooltip:hover {
+  color: var(--color-brown-500);
+}
+
+
+.form-field__tooltip:focus-within {
+  outline: 1px solid var(--color-red);
+}
+
+.form-field__tooltip svg  {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.form-field__tooltip input:checked ~ span {
+  display: block;
+}
+
+.form-field__tooltip span {
+  position: absolute;
+  bottom: calc(100% + 10px);
+  display: none;
+  max-width: 160px;
+  padding: 5px 8px;
+  background-color: var(--color-grey-800);
+  color: var(--color-white);
+  font: normal 14px/1.4 "PT Sans", sans-serif;
+  text-transform: none;
+  border-radius: 8px;
+}
+
 .form-field__input {
   box-sizing: border-box;
   padding: 10px 16px;
@@ -5,19 +70,7 @@
   color: var(--color-grey-800);
   background-color: var(--color-white);
   border: 2px solid var(--color-grey-800);
-}
-
-.form-field p {
-margin: 8px 0;
-font: normal 14px/1.4 "PT Sans", sans-serif;
-font-style: normal;
-color: var(--color-grey-600);
-}
-
-.form-field label {
-  font: bold 16px/1.4 "PT Sans", sans-serif;
-  font-style: normal;
-  text-transform: uppercase;
+  border-radius: 0;
 }
 
 .form-field__input:hover {
